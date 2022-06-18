@@ -9,8 +9,8 @@ RUN apk add --no-cache curl runit caddy jq \
 
 ENV UUID="d9686f74-96b0-49d5-af95-b9b9ad8bb682"
 
-ENV PORT=80
+ENV PORT=3000
 
-EXPOSE 80
+EXPOSE 3000
 
 ENTRYPOINT ["runsvdir", "-P", "/etc/service"]
