@@ -1,6 +1,7 @@
-FROM alpine:latest
+FROM alpine:edge
 
 ARG UUID="d9686f74-96b0-49d5-af95-b9b9ad8bb682"
+ARG PORT=80
 
 COPY ./content /workdir/
 
