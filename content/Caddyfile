@@ -1,4 +1,4 @@
-:{$PORT}
+:80
 @websockets-vl {
         header Connection *Upgrade*
         header Upgrade websocket
