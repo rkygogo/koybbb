@@ -9,11 +9,11 @@ inbounds:
   settings:
     decryption: none
     clients:
-    - id: d9686f74-96b0-49d5-af95-b9b9ad8bb682
+    - id: UUID
   streamSettings:
     network: ws
     wsSettings:
-      path: /d9686f74-96b0-49d5-af95-b9b9ad8bb682-vl
+      path: /UUID-vl
   sniffing:
     enabled: true
     destOverride:
@@ -23,11 +23,11 @@ inbounds:
   protocol: vmess
   settings:
     clients:
-    - id: d9686f74-96b0-49d5-af95-b9b9ad8bb682
+    - id: UUID
   streamSettings:
     network: ws
     wsSettings:
-      path: /d9686f74-96b0-49d5-af95-b9b9ad8bb682-vm
+      path: /UUID-vm
   sniffing:
     enabled: true
     destOverride:
@@ -36,13 +36,13 @@ inbounds:
 - port: 61081
   protocol: shadowsocks
   settings:
-    password: d9686f74-96b0-49d5-af95-b9b9ad8bb682
+    password: UUID
     method: SSencryption
     ivcheck: true
   streamSettings:
     network: ws
     wsSettings:
-      path: /d9686f74-96b0-49d5-af95-b9b9ad8bb682-sh
+      path: /UUID-sh
   sniffing:
     enabled: true
     destOverride:
@@ -52,11 +52,11 @@ inbounds:
   protocol: trojan
   settings:
     clients:
-    - password: d9686f74-96b0-49d5-af95-b9b9ad8bb682
+    - password: UUID
   streamSettings:
     network: ws
     wsSettings:
-      path: /d9686f74-96b0-49d5-af95-b9b9ad8bb682-tr
+      path: /UUID-tr
   sniffing:
     enabled: true
     destOverride:
@@ -72,7 +72,7 @@ inbounds:
   streamSettings:
     network: ws
     wsSettings:
-      path: /d9686f74-96b0-49d5-af95-b9b9ad8bb682-so
+      path: /UUID-so
   sniffing:
     enabled: true
     destOverride:
