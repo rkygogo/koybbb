@@ -7,8 +7,6 @@ RUN apk add --no-cache curl runit caddy jq \
     && /workdir/install.sh \
     && ln -s /workdir/service/* /etc/service/
 
-ENV UUID="d9686f74-96b0-49d5-af95-b9b9ad8bb682"
-
 ENV PORT=3000
 
 EXPOSE 3000
