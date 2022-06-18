@@ -83,4 +83,3 @@ outbounds:
   tag: direct
   settings:
     domainStrategy: UseIPv4
-    
